@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "D/b8QSZEgs8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gmoun\\OneDrive\\Documents\\.net\\SCA_Demo_App\\SCA_Demo_App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gmoun\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Newtonsoft.Json' 12.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "C:\\Users\\gmoun\\OneDrive\\Documents\\.net\\SCA_Demo_App\\SCA_Demo_App.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\gmoun\\OneDrive\\Documents\\.net\\SCA_Demo_App\\SCA_Demo_App.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

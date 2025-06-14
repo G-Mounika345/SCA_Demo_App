@@ -1,0 +1,17 @@
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\bin\Debug\net9.0\SCA_Demo_App.exe
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\bin\Debug\net9.0\SCA_Demo_App.deps.json
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\bin\Debug\net9.0\SCA_Demo_App.runtimeconfig.json
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\bin\Debug\net9.0\SCA_Demo_App.dll
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\bin\Debug\net9.0\SCA_Demo_App.pdb
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\obj\Debug\net9.0\SCA_Demo_App.csproj.AssemblyReference.cache
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\obj\Debug\net9.0\SCA_Demo_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\obj\Debug\net9.0\SCA_Demo_App.AssemblyInfoInputs.cache
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\obj\Debug\net9.0\SCA_Demo_App.AssemblyInfo.cs
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\obj\Debug\net9.0\SCA_Demo_App.csproj.CoreCompileInputs.cache
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\obj\Debug\net9.0\SCA_Demo.E47367C0.Up2Date
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\obj\Debug\net9.0\SCA_Demo_App.dll
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\obj\Debug\net9.0\refint\SCA_Demo_App.dll
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\obj\Debug\net9.0\SCA_Demo_App.pdb
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\obj\Debug\net9.0\SCA_Demo_App.genruntimeconfig.cache
+C:\Users\gmoun\OneDrive\Documents\.net\SCA_Demo_App\obj\Debug\net9.0\ref\SCA_Demo_App.dll
