@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Clone') {
+            steps {
+                git 'https://github.com/<your-username>/SCA_Demo_App.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                bat 'dotnet build'
+            }
+        }
+
+        stage('SCA Scan') {
+            steps {
+                bat 'dependency-check --project "SCA_Demo_App" --scan . --format HTML --out SCA_Report'
+            }
+        }
+
+        stage('Post') {
+            steps {
+                archiveArtifacts artifacts: 'SCA_Report/dependency-check-report.html', fingerprint: true
+            }
+        }
+    }
+}
