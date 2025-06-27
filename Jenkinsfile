@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DEPENDENCY_CHECK = 'C:/Tools/dependency-check-12.1.0-release/dependency-check/bin/dependency-check.bat'
-        SONAR_SCANNER_PATH = 'C:/Users/gmoun/.dotnet/tools/.store/dotnet-sonarscanner/10.2.0/dotnet-sonarscanner/10.2.0/tools/netcoreapp3.1/any/dotnet-sonarscanner.dll'
+        SONAR_SCANNER = 'C:/Users/gmoun/.dotnet/tools/dotnet-sonarscanner.exe'
         SONAR_TOKEN = 'sqp_101a9ca714108fee39eda11ae587037a5741116d'
         REPORT_PATH = 'SCA_Report'
     }
@@ -19,7 +19,7 @@ pipeline {
             steps {
                 bat """
                     echo === SONAR BEGIN ===
-                    dotnet "%SONAR_SCANNER_PATH%" begin /k:"SCA_Demo_App" /d:sonar.host.url="http://localhost:9000" /d:sonar.token="${SONAR_TOKEN}"
+                    "${SONAR_SCANNER}" begin /k:"SCA_Demo_App" /d:sonar.host.url="http://localhost:9000" /d:sonar.token="${SONAR_TOKEN}"
                 """
             }
         }
@@ -39,7 +39,7 @@ pipeline {
             steps {
                 bat """
                     echo === SONAR END ===
-                    dotnet "%SONAR_SCANNER_PATH%" end /d:sonar.token="${SONAR_TOKEN}"
+                    "${SONAR_SCANNER}" end /d:sonar.token="${SONAR_TOKEN}"
                 """
             }
         }
